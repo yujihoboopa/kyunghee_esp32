@@ -1,0 +1,2 @@
+source /home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader/gdbinit/symbols
+source /home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader/gdbinit/connect

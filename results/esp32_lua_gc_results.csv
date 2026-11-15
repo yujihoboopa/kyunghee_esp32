@@ -1,0 +1,184 @@
+metric,unit,samples,mean,median,p95,min,max,quality,notes
+gc_step@unlabeled,us,348,95.621,,,,647,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@unlabeled,us,61183,0.826,,,,17,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@unlabeled,us,212,58.500,,,,153,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@unlabeled,us,107776,1.326,,,,40,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@unlabeled,us,4204,65.602,,,,554,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@unlabeled,us,3091,2.892,,,,19,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@unlabeled,us,182,3.478,,,,46,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@baseline_same_core0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@baseline_same_core0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@baseline_same_core0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@baseline_same_core0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@baseline_same_core0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@baseline_same_core0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@baseline_same_core0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@baseline_same_core1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@baseline_same_core1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@baseline_same_core1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@baseline_same_core1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@baseline_same_core1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@baseline_same_core1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@baseline_same_core1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@baseline_lua0_probe1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@baseline_lua0_probe1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@baseline_lua0_probe1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@baseline_lua0_probe1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@baseline_lua0_probe1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@baseline_lua0_probe1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@baseline_lua0_probe1,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@baseline_lua1_probe0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@baseline_lua1_probe0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@baseline_lua1_probe0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@baseline_lua1_probe0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@baseline_lua1_probe0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@baseline_lua1_probe0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@baseline_lua1_probe0,us,0,0.000,,,,0,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@auto_gc_same_core0,us,1257,565.861,,,,4606,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@auto_gc_same_core0,us,19251,0.924,,,,1379,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@auto_gc_same_core0,us,59,238.017,,,,1628,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@auto_gc_same_core0,us,15104,1.446,,,,564,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@auto_gc_same_core0,us,1543,351.204,,,,2164,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@auto_gc_same_core0,us,59,9.017,,,,13,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@auto_gc_same_core0,us,59,39.051,,,,47,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@auto_gc_same_core1,us,1260,510.179,,,,3219,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@auto_gc_same_core1,us,19320,0.820,,,,51,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@auto_gc_same_core1,us,60,125.183,,,,165,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@auto_gc_same_core1,us,15360,1.310,,,,8,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@auto_gc_same_core1,us,1560,334.128,,,,1068,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@auto_gc_same_core1,us,60,1.267,,,,13,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@auto_gc_same_core1,us,60,5.100,,,,10,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@auto_gc_lua0_probe1,us,1260,569.922,,,,4721,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@auto_gc_lua0_probe1,us,19320,0.904,,,,1330,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@auto_gc_lua0_probe1,us,60,221.150,,,,1603,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@auto_gc_lua0_probe1,us,15360,1.446,,,,824,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@auto_gc_lua0_probe1,us,1560,353.961,,,,2214,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@auto_gc_lua0_probe1,us,60,8.867,,,,9,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@auto_gc_lua0_probe1,us,60,38.833,,,,43,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@auto_gc_lua1_probe0,us,1260,502.275,,,,2802,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@auto_gc_lua1_probe0,us,19320,0.821,,,,9,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@auto_gc_lua1_probe0,us,60,117.967,,,,157,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@auto_gc_lua1_probe0,us,15360,1.310,,,,8,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@auto_gc_lua1_probe0,us,1560,329.354,,,,599,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@auto_gc_lua1_probe0,us,60,1.133,,,,5,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@auto_gc_lua1_probe0,us,60,4.017,,,,10,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@auto_gc_high_load_default,us,2476,499.163,,,,2782,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@auto_gc_high_load_default,us,37010,0.815,,,,7,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@auto_gc_high_load_default,us,78,271.115,,,,305,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@auto_gc_high_load_default,us,19968,1.315,,,,8,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@auto_gc_high_load_default,us,3119,328.066,,,,632,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@auto_gc_high_load_default,us,78,1.013,,,,5,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@auto_gc_high_load_default,us,78,4.526,,,,9,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@pause100_high_load,us,8492,223.775,,,,2749,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@pause100_high_load,us,142329,0.819,,,,59,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@pause100_high_load,us,359,193.774,,,,293,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@pause100_high_load,us,91895,1.310,,,,60,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@pause100_high_load,us,6632,161.408,,,,603,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@pause100_high_load,us,358,0.922,,,,1,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@pause100_high_load,us,361,3.283,,,,10,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@stepmul400_high_load,us,1539,839.209,,,,5677,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@stepmul400_high_load,us,43811,0.820,,,,56,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@stepmul400_high_load,us,124,120.427,,,,198,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@stepmul400_high_load,us,31753,1.332,,,,514,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@stepmul400_high_load,us,3274,314.665,,,,996,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@stepmul400_high_load,us,125,0.912,,,,2,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@stepmul400_high_load,us,122,4.066,,,,10,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_step@forced_full_gc_high_load,us,2487,483.398,,,,2757,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_mark@forced_full_gc_high_load,us,40839,0.816,,,,7,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_atomic@forced_full_gc_high_load,us,106,190.094,,,,290,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep_string@forced_full_gc_high_load,us,30976,1.329,,,,59,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_sweep@forced_full_gc_high_load,us,3512,299.609,,,,593,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_finalize@forced_full_gc_high_load,us,106,0.962,,,,1,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+gc_pause@forced_full_gc_high_load,us,91,4.176,,,,9,aggregated_no_p95,Aggregated phase summaries; P95 cannot be reconstructed from count/total/max alone
+probe_lateness_us@baseline_same_core0,us,4000,-1.650,,window_p95_max=55,-8,1009,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@baseline_same_core0,us,400,45.400,,window_p95_max=699,-8,2315,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@baseline_same_core0,us,400,1233.350,,window_p95_max=2966,1043,3141,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@baseline_same_core1,us,4000,-10.350,,window_p95_max=-2,-136,1,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@baseline_same_core1,us,400,21.550,,window_p95_max=318,-8,403,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@baseline_same_core1,us,400,843.550,,window_p95_max=896,837,1076,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@baseline_lua0_probe1,us,4000,0.000,,window_p95_max=6,0,10,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@baseline_lua0_probe1,us,400,2.400,,window_p95_max=13,-4,13,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@baseline_lua0_probe1,us,400,1346.450,,window_p95_max=2809,1199,2810,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@baseline_lua1_probe0,us,4000,-90.650,,window_p95_max=459,-419,11149,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@baseline_lua1_probe0,us,400,-0.400,,window_p95_max=4,-93,6,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@baseline_lua1_probe0,us,400,839.850,,window_p95_max=884,837,945,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@auto_gc_same_core0,us,3100,-8.677,,window_p95_max=541,-139,1186,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@auto_gc_same_core0,us,300,32.800,,window_p95_max=686,0,981,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@auto_gc_same_core0,us,300,14793.933,,window_p95_max=25493,8328,27641,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@auto_gc_same_core1,us,3000,2.000,,window_p95_max=23,-544,38,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@auto_gc_same_core1,us,300,13.933,,window_p95_max=430,0,467,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@auto_gc_same_core1,us,300,13121.933,,window_p95_max=21694,7654,21754,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@auto_gc_lua0_probe1,us,3000,-7.000,,window_p95_max=-3,-8,12,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@auto_gc_lua0_probe1,us,300,33.067,,window_p95_max=680,-8,925,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@auto_gc_lua0_probe1,us,300,14530.067,,window_p95_max=25160,8245,26334,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@auto_gc_lua1_probe0,us,3000,10.600,,window_p95_max=1043,-8,1064,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@auto_gc_lua1_probe0,us,300,-0.333,,window_p95_max=0,-105,1,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@auto_gc_lua1_probe0,us,300,12940.133,,window_p95_max=21469,7630,21843,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@auto_gc_high_load_default,us,3000,-3.500,,window_p95_max=11,-241,29,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@auto_gc_high_load_default,us,300,44.000,,window_p95_max=430,0,596,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@auto_gc_high_load_default,us,300,26530.733,,window_p95_max=38921,14334,38994,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@pause100_high_load,us,3000,-6.100,,window_p95_max=9,-601,12,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@pause100_high_load,us,300,39.600,,window_p95_max=405,0,493,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@pause100_high_load,us,300,24480.133,,window_p95_max=29829,18451,39645,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@stepmul400_high_load,us,3000,-8.967,,window_p95_max=11,-642,31,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@stepmul400_high_load,us,300,27.867,,window_p95_max=417,0,499,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@stepmul400_high_load,us,300,24112.533,,window_p95_max=37031,14336,37144,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+probe_lateness_us@forced_full_gc_high_load,us,3000,-4.867,,window_p95_max=10,-465,19,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+task_lateness_us@forced_full_gc_high_load,us,300,41.267,,window_p95_max=411,0,508,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+lua_call_us@forced_full_gc_high_load,us,300,25549.867,,window_p95_max=38651,14342,40892,window_aggregated,"P95 is maximum per-window P95, not a pooled percentile"
+object_gc_simple_table,us,30,2392,,2442,,2461,30_trials_single_boot,Forced-GC trials in one boot; repeat across boots for stronger inference
+object_allocated_simple_table,bytes,30,2080,,,,2080,30_trials_single_boot,Allocator increase per trial; max shown separately
+object_reclaimed_simple_table,bytes,30,2280,,,,7172,30_trials_single_boot,Allocator decrease during collection; max shown separately
+object_gc_nested_table,us,30,4975,,5015,,5043,30_trials_single_boot,Forced-GC trials in one boot; repeat across boots for stronger inference
+object_allocated_nested_table,bytes,30,14368,,,,14368,30_trials_single_boot,Allocator increase per trial; max shown separately
+object_reclaimed_nested_table,bytes,30,14388,,,,14388,30_trials_single_boot,Allocator decrease during collection; max shown separately
+object_gc_closure_upvalue,us,30,3798,,3844,,3893,30_trials_single_boot,Forced-GC trials in one boot; repeat across boots for stronger inference
+object_allocated_closure_upvalue,bytes,30,7456,,,,7456,30_trials_single_boot,Allocator increase per trial; max shown separately
+object_reclaimed_closure_upvalue,bytes,30,7474,,,,7476,30_trials_single_boot,Allocator decrease during collection; max shown separately
+object_survivors_closure_upvalue,objects,30,1,,,,,30_trials_single_boot,Mean verified survivors per trial
+object_gc_weak_values,us,30,3687,,3724,,3733,30_trials_single_boot,Forced-GC trials in one boot; repeat across boots for stronger inference
+object_allocated_weak_values,bytes,30,6752,,,,6752,30_trials_single_boot,Allocator increase per trial; max shown separately
+object_reclaimed_weak_values,bytes,30,6720,,,,6792,30_trials_single_boot,Allocator decrease during collection; max shown separately
+object_survivors_weak_values,objects,30,0,,,,,30_trials_single_boot,Mean verified survivors per trial
+object_gc_full_userdata,us,30,3074,,3115,,3148,30_trials_single_boot,Forced-GC trials in one boot; repeat across boots for stronger inference
+object_allocated_full_userdata,bytes,30,4608,,,,4608,30_trials_single_boot,Allocator increase per trial; max shown separately
+object_reclaimed_full_userdata,bytes,30,4648,,,,4648,30_trials_single_boot,Allocator decrease during collection; max shown separately
+object_gc_userdata_finalizer,us,30,2947,,2983,,2988,30_trials_single_boot,Forced-GC trials in one boot; repeat across boots for stronger inference
+object_allocated_userdata_finalizer,bytes,30,4608,,,,4608,30_trials_single_boot,Allocator increase per trial; max shown separately
+object_reclaimed_userdata_finalizer,bytes,30,20,,,,20,30_trials_single_boot,Allocator decrease during collection; max shown separately
+object_survivors_userdata_finalizer,objects,30,96,,,,,30_trials_single_boot,Mean verified survivors per trial
+object_gc_c_api_stack_root,us,30,12204,,12347,,12539,30_trials_single_boot,Forced-GC trials in one boot; repeat across boots for stronger inference
+object_allocated_c_api_stack_root,bytes,30,0,,,,0,30_trials_single_boot,Allocator increase per trial; max shown separately
+object_reclaimed_c_api_stack_root,bytes,30,0,,,,0,30_trials_single_boot,Allocator decrease during collection; max shown separately
+object_survivors_c_api_stack_root,objects,30,1,,,,,30_trials_single_boot,Mean verified survivors per trial
+lua_allocator_current,bytes,200,49790.540,54056.000,99176.000,31496,121736,observed,Lua allocator tracked bytes
+lua_allocator_peak,bytes,200,144997.100,160072.000,160072.000,49931,160072,observed,Peak Lua allocator tracked bytes
+lua_allocator_failed_allocations,count,200,0.000,0.000,0.000,0,0,observed,Allocator failure counter
+ble_processed,requests,200,2010.000,2010.000,3800.000,20,4000,summary,Counts in each emitted summary window
+ble_sent,requests,200,1910.025,1909.000,3699.000,0,3899,summary,Cumulative successful notify submissions per window
+ble_failed,requests,200,99.975,101.000,101.000,20,101,summary,Cumulative failed notify submissions per window
+ble_latency_estimated_all_profiles,us,3942,31018.244,31259.000,51439.000,5892,89168,clock_uncertainty_44601us,Host/ESP timer offset estimated by GATT reads; uncertainty exceeds much of the estimated one-way latency
+ble_latency_profile_0,us,300,32985.58,33230.00,53239,11038,55155,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_0,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_1,us,399,31006.54,29813.00,53726,7417,89168,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_1,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_2,us,400,32480.94,32380.00,53185,7402,55887,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_2,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_3,us,400,31101.98,32691.00,52883,8036,72820,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_3,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_4,us,343,30858.44,31004.00,50083,8161,56419,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_4,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_5,us,300,29913.39,29418.50,50464,5892,54555,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_5,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_6,us,300,30495.19,30701.00,49632,8321,55984,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_6,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_7,us,300,30593.47,30734.00,50242,6061,58427,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_7,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_8,us,300,30110.39,30211.00,49986,6610,53674,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_8,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_9,us,300,29554.71,29324.00,53152,6751,59930,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_9,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_10,us,300,30935.06,31147.50,51301,6426,61734,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_10,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0
+ble_latency_profile_11,us,300,31694.51,31607.50,51112,7609,53160,estimated_clock_uncertainty_44601us,complete_profile=1; inferred_missing=0; one-way latency precision is limited by clock-offset uncertainty
+ble_unique_packets_profile_11,packets,100,,,,,100,complete,internal sequence gaps=0; inferred missing=0

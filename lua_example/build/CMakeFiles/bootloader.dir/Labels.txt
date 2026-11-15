@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/CMakeFiles/bootloader
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/CMakeFiles/bootloader.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/CMakeFiles/bootloader-complete.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/jiho/coding/esp/kyunghee_esp32/lua_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

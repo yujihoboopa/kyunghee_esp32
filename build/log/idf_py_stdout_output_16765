@@ -1,0 +1,73 @@
+Command: ninja flash
+[1/5] cd /home/jiho/coding/esp/kyunghee_esp32/build && /home/jiho/.espressif/python_env/idf6.2_py3.14_env/bin/python /home/jiho/coding/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jiho/coding/esp/kyunghee_esp32/build/partition_table/partition-table.bin /home/jiho/coding/esp/kyunghee_esp32/build/kyunghee_esp32.bin
+kyunghee_esp32.bin binary size 0x88640 bytes. Smallest app partition is 0x100000 bytes. 0x779c0 bytes (47%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/jiho/coding/esp/kyunghee_esp32/build/bootloader && /home/jiho/.espressif/python_env/idf6.2_py3.14_env/bin/python /home/jiho/coding/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jiho/coding/esp/kyunghee_esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x65e0 bytes. 0xa20 bytes (9%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] Running utility command for flash
+esptool --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default-reset --after=hard-reset write-flash --flash-mode dio --flash-freq 40m --flash-size 2MB 0x1000 bootloader/bootloader.bin 0x8000 partition_table/partition-table.bin 0x10000 kyunghee_esp32.bin --diff-with bootloader/bootloader_flashed.bin partition_table/partition-table_flashed.bin kyunghee_esp32_flashed.bin
+esptool v5.6.0
+Serial port /dev/ttyUSB0:
+Connecting....
+Connected to ESP32 on /dev/ttyUSB0:
+Chip type:          ESP32-D0WD-V3 (revision v3.1)
+Features:           Wi-Fi, BT, Dual Core + LP Core, 240MHz, Vref calibration in eFuse, Coding Scheme None
+Crystal frequency:  40MHz
+MAC:                68:fe:71:89:ed:d8
+
+Uploading stub flasher...
+Running stub flasher...
+Stub flasher running.
+Changing baud rate to 460800...
+Changed.
+
+Configuring flash size...
+
+Writing 'bootloader/bootloader.bin' at 0x00001000...
+SHA digest in image updated.
+SHA digest in image updated.
+No changed sectors found, verifying if data is in flash...
+'bootloader/bootloader.bin' at 0x00001000 verified.
+
+Writing 'partition_table/partition-table.bin' at 0x00008000...
+No changed sectors found, verifying if data is in flash...
+'partition_table/partition-table.bin' at 0x00008000 verified.
+
+Writing 'kyunghee_esp32.bin' at 0x00010000...
+Changed data sectors found, fast reflashing...
+Reflashing 1 changed sector at 0x00010000...
+Flash will be erased from 0x00010000 to 0x00010fff...
+Compressed 4096 bytes to 1984...
+Writing at 0x00011000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.0% 1.94kB/1.94kB [0s] 
+Wrote 4096 bytes (1984 compressed) at 0x00010000 in 0.0 seconds (676.3 kbit/s).
+Reflashing 132 changed sectors at 0x00015000...
+Flash will be erased from 0x00015000 to 0x00098fff...
+Compressed 540672 bytes to 342516...
+Writing at 0x0002017d ━                                4.8% 16.00kB/334.49kB [0s] 
+Writing at 0x0002b67e ━━╸                              9.6% 32.00kB/334.49kB [0s] 
+Writing at 0x00030ff4 ━━━━                            14.4% 48.00kB/334.49kB [1s] 
+Writing at 0x000366f6 ━━━━━╸                          19.1% 64.00kB/334.49kB [1s] 
+Writing at 0x0003c28b ━━━━━━━                         23.9% 80.00kB/334.49kB [1s] 
+Writing at 0x00042013 ━━━━━━━━╸                       28.7% 96.00kB/334.49kB [2s] 
+Writing at 0x00047a94 ━━━━━━━━━━                      33.5% 112.00kB/334.49kB [2s] 
+Writing at 0x0004d776 ━━━━━━━━━━━                     38.3% 128.00kB/334.49kB [2s] 
+Writing at 0x00053380 ━━━━━━━━━━━━╸                   43.1% 144.00kB/334.49kB [3s] 
+Writing at 0x00058f03 ━━━━━━━━━━━━━━                  47.8% 160.00kB/334.49kB [3s] 
+Writing at 0x0005e94f ━━━━━━━━━━━━━━━╸                52.6% 176.00kB/334.49kB [4s] 
+Writing at 0x00064412 ━━━━━━━━━━━━━━━━━               57.4% 192.00kB/334.49kB [4s] 
+Writing at 0x0006a15d ━━━━━━━━━━━━━━━━━━╸             62.2% 208.00kB/334.49kB [4s] 
+Writing at 0x0006fa84 ━━━━━━━━━━━━━━━━━━━━            67.0% 224.00kB/334.49kB [5s] 
+Writing at 0x00075c0d ━━━━━━━━━━━━━━━━━━━━━╸          71.8% 240.00kB/334.49kB [5s] 
+Writing at 0x0007b2c2 ━━━━━━━━━━━━━━━━━━━━━━╸         76.5% 256.00kB/334.49kB [5s] 
+Writing at 0x000810e8 ━━━━━━━━━━━━━━━━━━━━━━━━        81.3% 272.00kB/334.49kB [6s] 
+Writing at 0x000876d1 ━━━━━━━━━━━━━━━━━━━━━━━━━╸      86.1% 288.00kB/334.49kB [6s] 
+Writing at 0x0008ce3c ━━━━━━━━━━━━━━━━━━━━━━━━━━━     90.9% 304.00kB/334.49kB [7s] 
+Writing at 0x00092fd1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸   95.7% 320.00kB/334.49kB [7s] 
+Writing at 0x00099000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.0% 334.49kB/334.49kB [7s] 
+Wrote 540672 bytes (342516 compressed) at 0x00015000 in 7.9 seconds (548.1 kbit/s).
+Verifying written data...
+Hash of data verified.
+
+Hard resetting via RTS pin...
